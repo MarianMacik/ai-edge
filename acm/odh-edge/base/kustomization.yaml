@@ -9,5 +9,6 @@ configMapGenerator:
 - files:
   - files/uwm_metrics.yaml
   name: observability-metrics-custom-allowlist
+  namespace: bike-rental-app
   options:
     disableNameSuffixHash: true
