@@ -1,4 +1,4 @@
-FROM docker.io/openvino/model_server:2023.0
+FROM quay.io/mmacik/model_server:2023.0
 
 ARG MODEL_NAME
 ARG MODEL_DIR=tf2model
