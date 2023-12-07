@@ -27,7 +27,7 @@ RUN . ~/miniconda3/bin/activate && \
 
 # Create the MLServer container. Use the slim image, since we are providing an environment tarball.
 # 
-FROM docker.io/seldonio/mlserver:1.3.5-slim
+FROM quay.io/mmacik/mlserver:1.3.5-slim
 
 ARG MODEL_NAME
 ARG GRPC_PORT=9090
